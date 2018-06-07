@@ -1,0 +1,29 @@
+{
+  "name": "budget-planning-server",
+  "version": "0.1.0",
+  "description": "Budget is telling your money where to go insted of wondering where they went",
+  "main": "server.js",
+  "scripts": {
+    "client": "cd client && npm start",
+    "server": "nodemon server.js",
+    "start": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\""
+  },
+  "author": "mSkiba",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^3.5.1",
+    "currently": "0.0.8"
+  },
+  "dependencies": {
+    "@material-ui/core": "^1.1.0",
+    "@material-ui/icons": "^1.1.0",
+    "babel-polyfill": "^6.26.0",
+    "cross-fetch": "^2.2.0",
+    "express": "^4.16.3",
+    "lodash": "^4.17.10",
+    "mysql": "^2.15.0",
+    "react-beautiful-dnd": "^7.1.2",
+    "react-redux": "^5.0.7",
+    "redux-logger": "^3.0.6"
+  }
+}

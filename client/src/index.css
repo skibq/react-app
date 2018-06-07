@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.budget-planning-app {
+
+}
+.container {
+  width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.header {
+  padding-top: 0px;
+  background-color: #333;
+  color: #fff;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+.header__h1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 32px;
+  color: #fff;
+  text-align: center;
+}
+.header__h2 {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-size: 18px;
+  font-weight: 100;
+  text-align: center;
+}
+.categories {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.add-category {
+  padding-top: 20px;
+}
+.categories__add-label {
+  display: block;
+}
+.categories__add-input {
+  font-size: 18px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.categories__add-btn {
+  box-shadow: none;
+  background: #fff;
+  border: solid 1px;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.single-category {
+
+}
+.single-category__delete {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.25s ease-in-out;
+}
+.single-category:hover .single-category__delete {
+  visibility: visible;
+  opacity: 1;
+}
